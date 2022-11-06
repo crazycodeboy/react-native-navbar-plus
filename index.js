@@ -2,8 +2,9 @@ import { PropTypes } from 'prop-types';
 import React, { Component } from 'react';
 import {
   Platform, StatusBar,
-  StyleSheet, Text, View, ViewPropTypes
+  StyleSheet, Text, View
 } from 'react-native';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 import { isIPhoneX } from 'react-native-isiphonex-device';
 
 const NAV_BAR_HEIGHT_IOS = 44; //导航栏在iOS中的高度
